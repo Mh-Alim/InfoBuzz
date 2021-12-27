@@ -13,9 +13,9 @@ export class NewsItem extends Component {
             <div className="card">
                 <img src={!imageUrl?"https://i.ytimg.com/vi/pInNREGUQkI/maxresdefault.jpg":imageUrl} className="card-img-top" alt="..."/>
                 <div className="card-body">
-                    <span class="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{zIndex:'1',left:'90%'}}>
+                    <span className="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{zIndex:'1',left:'90%'}}>
                         {source}
-                        <span class="visually-hidden"></span>
+                        <span className="visually-hidden"></span>
                     </span>
                     <h5 className="card-title">{title}...</h5>
                     <p className="card-text">{description}</p>
